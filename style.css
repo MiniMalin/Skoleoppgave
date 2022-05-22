@@ -1,0 +1,33 @@
+/* #region */
+.grid-element {
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: lightblue;
+  padding: 1rem;
+  grid-gap: 100px;
+}
+
+.grid-element:nth-child(2n) {
+  background-color: rgb(173, 182, 230);
+  grid-gap: 20px;
+}
+/* #endregion */
+
+.grid-container {
+  border-style: hidden;
+  grid-template-columns: repeat(8, 2fl);
+  grid-template-rows: repeat(4, 2fl);
+  display: grid;
+}
+body {
+  background-image: url("/filer/Bakgrunn/Purple.png");
+  background-color: rgb(rgb(162, 94, 240));
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.link li a:hover {
+  color: rgb(108, 196, 199);
+}
