@@ -20,7 +20,7 @@
   display: grid;
 }
 body {
-  background-image: url("/filer/Bakgrunn/Purple.png");
+  background-image: url("/Skoleoppgave/filer/Bakgrunn/Purple.png");
   background-color: rgb(rgb(162, 94, 240));
   color: black;
   font-size: 25px;
