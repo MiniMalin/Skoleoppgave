@@ -9,7 +9,7 @@
 
 .grid-element:nth-child(2n) {
   background-color: rgb(173, 182, 230);
-  grid-gap: 20px;
+  grid-gap: 70px;
 }
 /* #endregion */
 
