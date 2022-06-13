@@ -14,11 +14,10 @@
 
 .grid-container {
   border-style: hidden;
-  border-top: 50px;
   grid-template-columns: repeat(8, 2fl);
   grid-template-rows: repeat(4, 2fl);
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 30px;
 }
 body {
   background-image: url("/Skoleoppgave/filer/Bakgrunn/Purple.png");
